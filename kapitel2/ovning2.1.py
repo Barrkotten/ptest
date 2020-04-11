@@ -1,0 +1,7 @@
+mätarställning = int( input('Mätarinställning idag?'))
+ifjol = int( input('Mätarinställning för ett år sedan?'))
+mil = int(mätarställning - ifjol)
+print ('Antal körda mil', mil)
+bensin = float(input('Antal liter bensin förbrukade under året?'))
+snittbensin = float(bensin / mil)
+print (f'Förbukning per mil {snittbensin:.2f}')
